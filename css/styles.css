@@ -430,11 +430,22 @@ box-shadow:
     background-color: #2E2F42;
     padding: 100px 0;
 }
+
+.footer-cub {
+    display: flex;
+    align-items: baseline;
+}
+
+.logo-section {
+    margin-right: 120px;
+}
+
 .footer-logo {
     display: inline-block;
     margin-left: 156px;
     margin-bottom: 16px;
 }
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
@@ -444,9 +455,11 @@ box-shadow:
     max-width: 264px;
     margin-left: 156px;
 }
+
 .logo {
     display: inline-block;
 }
+
 /*.social-media {
 }*/
 .media-text {
@@ -458,6 +471,7 @@ box-shadow:
     color: #f4f4fd;
     margin-bottom: 16px;
 }
+
 .social-media-icons {
     display: flex;
     gap: 16px;
@@ -470,6 +484,7 @@ box-shadow:
     width: 40px;
     height: 40px;
 }
+
 .link {
     width: 100%;
     height: 100%;
@@ -480,6 +495,7 @@ box-shadow:
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .link:hover,
 .link:focus {
     background-color: #31D0AA;

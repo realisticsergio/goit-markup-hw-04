@@ -310,21 +310,18 @@ box-shadow:
 .future-text-title {
     text-align: center
 }
-/*<--.social-icons {
+.social-icons {
     display: flex;
-    gap: 24px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
     justify-content: center;
+    gap: 24px;
 }
-
 
 .icon-list {
-    list-style: none;
+    width: 40px;
+    height: 40px;
 }
 
-    .icon-list .link {
+        /*<--.icon-list .link {
             display: flex;
             align-items: center;
             justify-content: center;

@@ -77,6 +77,7 @@ box-shadow:
      justify-content: space-between;
 }
 .header-logo {
+    padding: 24px 0;
     margin-right: 76px;
 }
 .nav-list {
@@ -96,12 +97,13 @@ box-shadow:
 
 .nav-link {
     display: block;
-    padding: 24 0;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link.current {
     position: relative;
@@ -122,7 +124,6 @@ box-shadow:
     border-radius: 2px;
 
     background-color: #404BBF;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
 }
 .contacts-list {
